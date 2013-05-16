@@ -1,0 +1,78 @@
+/* ============== TYPO ============== */
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6em;
+	color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3 {
+	font-feature-settings: 'liga';
+	-webkit-font-feature-settings: 'liga';
+	-moz-font-feature-settings: 'liga';
+	-o-font-feature-settings: 'liga';
+	font-family: Georgia, serif;
+}
+h1 {
+	font-size: 5em;
+	color: #777;
+}
+h2 {
+	font-size: 1.8em;
+	font-style: italic;
+	color: #999;
+}
+p {
+	font-family: Times New Roman, Times, serif;
+	font-size: 1.4em;
+}
+/* ============== WEBSITE ============== */
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+.container header {
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: solid 2px #CCC;
+	width: 100%;
+	float: left;
+}
+.container header h1 {
+	color: #777;
+	text-decoration: none;
+	-webkit-transition: color 500ms linear;
+	-moz-transition: color 500ms linear;
+	-ms-transition: color 500ms linear;
+	-o-transition: color 500ms linear;
+	transition: color 500ms linear;
+}
+.container header h1:hover {
+	color: #333;
+}
+/* ============== NAVIGATION ============== */
+
+nav {
+	width: 100%;
+	float: left;
+}
+nav ul {
+	margin: 0;
+	padding: 20px 0px;
+}
+nav li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+nav .left {
+	float: left;
+}
+nav .right {
+	float: right;
+}
